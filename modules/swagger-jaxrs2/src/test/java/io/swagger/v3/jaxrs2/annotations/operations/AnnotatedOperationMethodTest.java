@@ -1,5 +1,7 @@
 package io.swagger.v3.jaxrs2.annotations.operations;
 
+import com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule;
+import io.swagger.v3.core.util.Json;
 import io.swagger.v3.jaxrs2.annotations.AbstractAnnotationTest;
 import io.swagger.v3.jaxrs2.resources.GenericResponsesResource;
 import io.swagger.v3.jaxrs2.resources.HiddenAnnotatedUserResource;
